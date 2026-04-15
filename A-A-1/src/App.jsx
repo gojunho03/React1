@@ -1,4 +1,4 @@
-import MovieHeroes from "./components/MovieHeroes"
+import TeaSet from "./components/TeaSet"
 
 
 
@@ -6,7 +6,7 @@ import MovieHeroes from "./components/MovieHeroes"
 export default function App() {
   return (
     <>
-      <MovieHeroes/>
+      <TeaSet/>
       
     </>
    )
