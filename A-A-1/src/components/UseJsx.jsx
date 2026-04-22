@@ -2,10 +2,7 @@ export default function UseJsx () {
     const name = "React"
     
     function formatDate(date) {
-        return new Intl.DateTimeFormat(
-            "en-US",
-            {weekday: "long"}
-        ).format(date);
+        return new Intl.DateTimeFormat("en-US",{weekday: "long"}).format(date);
     }
     return (
         <>
